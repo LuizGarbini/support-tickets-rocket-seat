@@ -54,7 +54,5 @@ export class Database {
 
       this.#persist();
     }
-
-    console.log(rowIndex);
   }
 }
