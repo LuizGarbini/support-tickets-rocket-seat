@@ -21,7 +21,7 @@ export const tickets = [
   },
   {
     method: "PATCH",
-    path: "/tickets/:id/close",
+    path: "/tickets/:id/closed",
     controller: updateStatus,
   }
 ];
